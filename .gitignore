@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Project runtime outputs
+logs/
+checkpoints/
+runs/
+*.ckpt*
+events.out.tfevents.*
+
+# Large local model files
+data/nlu_data/wiki.en.vec
